@@ -2,8 +2,8 @@ package models
 
 import (
 	"fmt"
+	u "github.com/an-kuznetsov/RestApiTest/utils"
 	"github.com/jinzhu/gorm"
-	u "go-contacts/utils"
 )
 
 type Contact struct {

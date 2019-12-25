@@ -3,9 +3,9 @@ package app
 import (
 	"context"
 	"fmt"
+	"github.com/an-kuznetsov/RestApiTest/models"
+	u "github.com/an-kuznetsov/RestApiTest/utils"
 	"github.com/dgrijalva/jwt-go"
-	"go-contacts/models"
-	u "go-contacts/utils"
 	"net/http"
 	"os"
 	"strings"

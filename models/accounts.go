@@ -1,9 +1,9 @@
 package models
 
 import (
+	u "github.com/an-kuznetsov/RestApiTest/utils"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/jinzhu/gorm"
-	u "go-contacts/utils"
 	"golang.org/x/crypto/bcrypt"
 	"os"
 	"strings"

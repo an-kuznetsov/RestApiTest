@@ -2,8 +2,8 @@ package controllers
 
 import (
 	"encoding/json"
-	"go-contacts/models"
-	u "go-contacts/utils"
+	"github.com/an-kuznetsov/RestApiTest/models"
+	u "github.com/an-kuznetsov/RestApiTest/utils"
 	"net/http"
 )
 
